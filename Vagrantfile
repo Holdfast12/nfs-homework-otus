@@ -3,13 +3,13 @@ MACHINES = {
 		:box_name => "centos/7",
 #		 :box_version => "2004.01",
 		:ip_addr => '192.168.1.2',
-		:script => '.\server.sh',
+		:script => './server.sh',
 	},
 	:client => {
 		:box_name => "centos/7",
 #		 :box_version => "2004.01",
 		:ip_addr => '192.168.1.3',
-		:script => '.\client.sh',
+		:script => './client.sh',
 	},
 }
  
